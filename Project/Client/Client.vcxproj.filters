@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Default">
+      <UniqueIdentifier>{2ab34601-3edd-4aff-ad87-014028ba488f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{8e07fe58-d033-402d-b0f1-9e919716f1b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\SaveLoadMgr">
+      <UniqueIdentifier>{c69dad5f-c573-4539-a857-bc37705604be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\TestSceneCreate">
+      <UniqueIdentifier>{d90ac8b4-8b74-4f27-ab55-07441082e27c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\ImGUIMgr">
+      <UniqueIdentifier>{06667750-7605-4577-aa08-19901873a5ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\ImGUIMgr\ImGUI">
+      <UniqueIdentifier>{eafd5b2a-13c4-4458-92cd-508eb5013123}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{56fc4428-22a6-42c3-bc36-4b0b5b4f315a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\ListGUI">
+      <UniqueIdentifier>{b1a6cbad-8e95-4968-8cbd-cb7ecdbe849d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Menu">
+      <UniqueIdentifier>{3c9ade33-d3f0-4c23-8d24-ff1d17ef1bfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\HierachyGUI">
+      <UniqueIdentifier>{6a1b6ce2-88f4-4f0e-a096-eaf7b40bd75e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\ImGUIMgr\ImGUI_Ex">
+      <UniqueIdentifier>{a76d8090-f505-45f5-b290-34c7a610b73c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\ResGUI">
+      <UniqueIdentifier>{e5f78a81-a7d9-488f-ab9d-01e958eeeba2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\InspectorGUI">
+      <UniqueIdentifier>{b50ea807-fcd7-4744-bed1-3d547905f463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\InspectorGUI\ComponentGUI">
+      <UniqueIdentifier>{d593cd64-1c50-477b-8313-b09b27467596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\InspectorGUI\ComponentGUI\TransformGUI">
+      <UniqueIdentifier>{0e44f238-708a-4a4e-984a-226037f1385e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\InspectorGUI\ComponentGUI\MeshRenderGUI">
+      <UniqueIdentifier>{6cdae571-efb8-4319-acda-e3f5db6132ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\InspectorGUI\ComponentGUI\Collider2DGUI">
+      <UniqueIdentifier>{f66034bc-5306-4b6b-a89f-e7908dc1b223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\InspectorGUI\ResInfoGUI">
+      <UniqueIdentifier>{3d382031-8c8b-4785-a16a-b433591e734e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\InspectorGUI\ComponentGUI\ScriptGUI">
+      <UniqueIdentifier>{f1f92ac1-3111-4a78-9c0b-5b40c3146de9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\InspectorGUI\ResInfoGUI\MaterialGUI">
+      <UniqueIdentifier>{2330c6e7-33ac-48a9-916b-c432c54ee010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Debug">
+      <UniqueIdentifier>{8d927e8d-688b-4c3b-bdbd-cb1cb79d72a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\BtnGUI">
+      <UniqueIdentifier>{20c6e84b-1f92-4acb-a7b0-d1b8b36cc2a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ToolObject">
+      <UniqueIdentifier>{5aa0456d-ad96-407b-9093-d8dbdb3a1c93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ToolObject\ToolObjMgr">
+      <UniqueIdentifier>{38905258-5df9-467d-9598-c8b27f6ee46e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ToolObject\Script">
+      <UniqueIdentifier>{fc7cd2bf-4e91-48ee-acc1-cdc6db8e00b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ToolObject\Component">
+      <UniqueIdentifier>{ec2d2276-102c-4c00-9d89-f907c1ee7b81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ToolObject\GameObjectEx">
+      <UniqueIdentifier>{6fd79aa1-fc5c-4e4b-a703-5e7f30f975a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\MRTGUI">
+      <UniqueIdentifier>{f9238394-6986-40ab-93b7-e44133fa011d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderCode">
+      <UniqueIdentifier>{fbeb9528-7a17-444c-bf83-37973c7bcbaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\InspectorGUI\ComponentGUI\Animator3DGUI">
+      <UniqueIdentifier>{1b23806a-12ca-4f7a-a49f-c23c191aebfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\CCameraAnimGUI">
+      <UniqueIdentifier>{9eeae901-f1d5-48cb-b2d2-d56aa823837f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\InspectorGUI\ComponentGUI\Light3DGUI">
+      <UniqueIdentifier>{9b08b109-d9da-4e93-803f-b3a0f88f1c39}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>Manager\TestSceneCreate</Filter>
+    </ClInclude>
+    <ClInclude Include="CSaveLoadMgr.h">
+      <Filter>Manager\SaveLoadMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>Manager\ImGUIMgr\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>Manager\ImGUIMgr\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>Manager\ImGUIMgr\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>Manager\ImGUIMgr\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>Manager\ImGUIMgr\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>Manager\ImGUIMgr\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx11.h">
+      <Filter>Manager\ImGUIMgr\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CImGUIMgr.h">
+      <Filter>Manager\ImGUIMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_win32.h">
+      <Filter>Manager\ImGUIMgr\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentGUI.h">
+      <Filter>GUI\InspectorGUI\ComponentGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformGUI.h">
+      <Filter>GUI\InspectorGUI\ComponentGUI\TransformGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshRenderGUI.h">
+      <Filter>GUI\InspectorGUI\ComponentGUI\MeshRenderGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ListGUI.h">
+      <Filter>GUI\ListGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider2DGUI.h">
+      <Filter>GUI\InspectorGUI\ComponentGUI\Collider2DGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuGUI.h">
+      <Filter>GUI\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="HierachyGUI.h">
+      <Filter>GUI\HierachyGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeCtrl.h">
+      <Filter>Manager\ImGUIMgr\ImGUI_Ex</Filter>
+    </ClInclude>
+    <ClInclude Include="ResGUI.h">
+      <Filter>GUI\ResGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="InspectorGUI.h">
+      <Filter>GUI\InspectorGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptGUI.h">
+      <Filter>GUI\InspectorGUI\ComponentGUI\ScriptGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ResInfoGUI.h">
+      <Filter>GUI\InspectorGUI\ResInfoGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialGUI.h">
+      <Filter>GUI\InspectorGUI\ResInfoGUI\MaterialGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="DataGUI.h">
+      <Filter>Manager\ImGUIMgr\ImGUI_Ex</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugGUI.h">
+      <Filter>GUI\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="BtnGUI.h">
+      <Filter>GUI\BtnGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CToolObjMgr.h">
+      <Filter>ToolObject\ToolObjMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CToolCamScript.h">
+      <Filter>ToolObject\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CCameraEx.h">
+      <Filter>ToolObject\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameObjectEx.h">
+      <Filter>ToolObject\GameObjectEx</Filter>
+    </ClInclude>
+    <ClInclude Include="MRTGUI.h">
+      <Filter>GUI\MRTGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CGridScript.h">
+      <Filter>ToolObject\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator3DGUI.h">
+      <Filter>GUI\InspectorGUI\ComponentGUI\Animator3DGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuizmo.h">
+      <Filter>Manager\ImGUIMgr\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CCameraAnimGUI.h">
+      <Filter>GUI\CCameraAnimGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Light3DGUI.h">
+      <Filter>GUI\InspectorGUI\ComponentGUI\Light3DGUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Client.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="pch.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>Manager\TestSceneCreate</Filter>
+    </ClCompile>
+    <ClCompile Include="CSaveLoadMgr.cpp">
+      <Filter>Manager\SaveLoadMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>Manager\ImGUIMgr\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>Manager\ImGUIMgr\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>Manager\ImGUIMgr\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_tables.cpp">
+      <Filter>Manager\ImGUIMgr\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>Manager\ImGUIMgr\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx11.cpp">
+      <Filter>Manager\ImGUIMgr\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CImGUIMgr.cpp">
+      <Filter>Manager\ImGUIMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_win32.cpp">
+      <Filter>Manager\ImGUIMgr\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentGUI.cpp">
+      <Filter>GUI\InspectorGUI\ComponentGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformGUI.cpp">
+      <Filter>GUI\InspectorGUI\ComponentGUI\TransformGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshRenderGUI.cpp">
+      <Filter>GUI\InspectorGUI\ComponentGUI\MeshRenderGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ListGUI.cpp">
+      <Filter>GUI\ListGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider2DGUI.cpp">
+      <Filter>GUI\InspectorGUI\ComponentGUI\Collider2DGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuGUI.cpp">
+      <Filter>GUI\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="HierachyGUI.cpp">
+      <Filter>GUI\HierachyGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeCtrl.cpp">
+      <Filter>Manager\ImGUIMgr\ImGUI_Ex</Filter>
+    </ClCompile>
+    <ClCompile Include="ResGUI.cpp">
+      <Filter>GUI\ResGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="InspectorGUI.cpp">
+      <Filter>GUI\InspectorGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptGUI.cpp">
+      <Filter>GUI\InspectorGUI\ComponentGUI\ScriptGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ResInfoGUI.cpp">
+      <Filter>GUI\InspectorGUI\ResInfoGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialGUI.cpp">
+      <Filter>GUI\InspectorGUI\ResInfoGUI\MaterialGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="DataGUI.cpp">
+      <Filter>Manager\ImGUIMgr\ImGUI_Ex</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugGUI.cpp">
+      <Filter>GUI\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="BtnGUI.cpp">
+      <Filter>GUI\BtnGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CToolObjMgr.cpp">
+      <Filter>ToolObject\ToolObjMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CToolCamScript.cpp">
+      <Filter>ToolObject\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CCameraEx.cpp">
+      <Filter>ToolObject\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameObjectEx.cpp">
+      <Filter>ToolObject\GameObjectEx</Filter>
+    </ClCompile>
+    <ClCompile Include="MRTGUI.cpp">
+      <Filter>GUI\MRTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CGridScript.cpp">
+      <Filter>ToolObject\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator3DGUI.cpp">
+      <Filter>GUI\InspectorGUI\ComponentGUI\Animator3DGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGuizmo.cpp">
+      <Filter>Manager\ImGUIMgr\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CCameraAnimGUI.cpp">
+      <Filter>GUI\CCameraAnimGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PrefabCreate.cpp">
+      <Filter>Manager\TestSceneCreate</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadRes.cpp">
+      <Filter>Manager\TestSceneCreate</Filter>
+    </ClCompile>
+    <ClCompile Include="Light3DGUI.cpp">
+      <Filter>GUI\InspectorGUI\ComponentGUI\Light3DGUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="tool.fx">
+      <Filter>ShaderCode</Filter>
+    </FxCompile>
+    <FxCompile Include="struct.fx">
+      <Filter>ShaderCode</Filter>
+    </FxCompile>
+    <FxCompile Include="value.fx">
+      <Filter>ShaderCode</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

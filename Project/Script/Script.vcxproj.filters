@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonsterScript.h">
+      <Filter>ScriptCode</Filter>
+    </ClInclude>
+    <ClInclude Include="CCameraScript.h">
+      <Filter>ScriptCode</Filter>
+    </ClInclude>
+    <ClInclude Include="CSkyBoxScript.h">
+      <Filter>ScriptCode</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimatorScript.h">
+      <Filter>ScriptCode</Filter>
+    </ClInclude>
+    <ClInclude Include="CLawScript.h">
+      <Filter>ScriptCode\TheLaw</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimNameList.h" />
+    <ClInclude Include="CCameraAnimaitorScript.h">
+      <Filter>ScriptCode</Filter>
+    </ClInclude>
+    <ClInclude Include="CBulletScript.h">
+      <Filter>ScriptCode\TheLaw</Filter>
+    </ClInclude>
+    <ClInclude Include="CRadianDirBulletScript.h">
+      <Filter>ScriptCode\TheLaw</Filter>
+    </ClInclude>
+    <ClInclude Include="CScaleUpScript.h">
+      <Filter>ScriptCode\TheLaw</Filter>
+    </ClInclude>
+    <ClInclude Include="CSlashScript.h">
+      <Filter>ScriptCode\TheLaw</Filter>
+    </ClInclude>
+    <ClInclude Include="CColliderCheck.h">
+      <Filter>ScriptCode</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerScript.h">
+      <Filter>ScriptCode\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerAttackScript.h">
+      <Filter>ScriptCode\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CYoyoScript.h">
+      <Filter>ScriptCode\TheLaw</Filter>
+    </ClInclude>
+    <ClInclude Include="CSectorColliderScript.h">
+      <Filter>ScriptCode\TheLaw</Filter>
+    </ClInclude>
+    <ClInclude Include="CNavMeshManager.h">
+      <Filter>ScriptCode</Filter>
+    </ClInclude>
+    <ClInclude Include="CScriptMgr.h">
+      <Filter>ScriptCode</Filter>
+    </ClInclude>
+    <ClInclude Include="CHpbarScript.h">
+      <Filter>ScriptCode</Filter>
+    </ClInclude>
+    <ClInclude Include="CPillarScript.h">
+      <Filter>ScriptCode\Wise</Filter>
+    </ClInclude>
+    <ClInclude Include="CWallAxisScript.h">
+      <Filter>ScriptCode\Wise</Filter>
+    </ClInclude>
+    <ClInclude Include="CWallScript.h">
+      <Filter>ScriptCode\Wise</Filter>
+    </ClInclude>
+    <ClInclude Include="CWiseScript.h">
+      <Filter>ScriptCode\Wise</Filter>
+    </ClInclude>
+    <ClInclude Include="CMissileScript2.h">
+      <Filter>ScriptCode\Wise</Filter>
+    </ClInclude>
+    <ClInclude Include="CMissileScript.h">
+      <Filter>ScriptCode\Wise</Filter>
+    </ClInclude>
+    <ClInclude Include="CMissileScript3.h">
+      <Filter>ScriptCode\Wise</Filter>
+    </ClInclude>
+    <ClInclude Include="CSecneChangeScript.h">
+      <Filter>ScriptCode</Filter>
+    </ClInclude>
+    <ClInclude Include="CStart2Script.h">
+      <Filter>ScriptCode</Filter>
+    </ClInclude>
+    <ClInclude Include="CStartScript.h">
+      <Filter>ScriptCode</Filter>
+    </ClInclude>
+    <ClInclude Include="CEffectScript.h">
+      <Filter>ScriptCode</Filter>
+    </ClInclude>
+    <ClInclude Include="CSetPlayerBosPos.h">
+      <Filter>ScriptCode</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Default">
+      <UniqueIdentifier>{e4e4557c-e528-467f-8a45-f0ed293e613c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode">
+      <UniqueIdentifier>{1f77e2bc-7650-48f4-8ed5-a35b7b119fd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\TheLaw">
+      <UniqueIdentifier>{7265717c-c564-49df-b2c9-b89d9f503733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\Player">
+      <UniqueIdentifier>{03a130f2-30f4-4179-9f4d-cf81dd1ec31b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\Wise">
+      <UniqueIdentifier>{28c7a6b1-2ad6-4a76-a1f9-e46b8bcaedde}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonsterScript.cpp">
+      <Filter>ScriptCode</Filter>
+    </ClCompile>
+    <ClCompile Include="CCameraScript.cpp">
+      <Filter>ScriptCode</Filter>
+    </ClCompile>
+    <ClCompile Include="CSkyBoxScript.cpp">
+      <Filter>ScriptCode</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimatorScript.cpp">
+      <Filter>ScriptCode</Filter>
+    </ClCompile>
+    <ClCompile Include="LawAttack.cpp">
+      <Filter>ScriptCode\TheLaw</Filter>
+    </ClCompile>
+    <ClCompile Include="LawMove.cpp">
+      <Filter>ScriptCode\TheLaw</Filter>
+    </ClCompile>
+    <ClCompile Include="CLawScript.cpp">
+      <Filter>ScriptCode\TheLaw</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerScript.cpp">
+      <Filter>ScriptCode\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CCameraAnimaitorScript.cpp">
+      <Filter>ScriptCode</Filter>
+    </ClCompile>
+    <ClCompile Include="CBulletScript.cpp">
+      <Filter>ScriptCode\TheLaw</Filter>
+    </ClCompile>
+    <ClCompile Include="CRadianDirBulletScript.cpp">
+      <Filter>ScriptCode\TheLaw</Filter>
+    </ClCompile>
+    <ClCompile Include="CScaleUpScript.cpp">
+      <Filter>ScriptCode\TheLaw</Filter>
+    </ClCompile>
+    <ClCompile Include="CSlashScript.cpp">
+      <Filter>ScriptCode\TheLaw</Filter>
+    </ClCompile>
+    <ClCompile Include="CColliderCheck.cpp">
+      <Filter>ScriptCode</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerAttackScript.cpp">
+      <Filter>ScriptCode\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerAttack.cpp">
+      <Filter>ScriptCode\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CYoyoScript.cpp">
+      <Filter>ScriptCode\TheLaw</Filter>
+    </ClCompile>
+    <ClCompile Include="CSectorColliderScript.cpp">
+      <Filter>ScriptCode\TheLaw</Filter>
+    </ClCompile>
+    <ClCompile Include="CNavMeshManager.cpp">
+      <Filter>ScriptCode</Filter>
+    </ClCompile>
+    <ClCompile Include="CScriptMgr.cpp">
+      <Filter>ScriptCode</Filter>
+    </ClCompile>
+    <ClCompile Include="CHpbarScript.cpp">
+      <Filter>ScriptCode</Filter>
+    </ClCompile>
+    <ClCompile Include="CPillarScript.cpp">
+      <Filter>ScriptCode\Wise</Filter>
+    </ClCompile>
+    <ClCompile Include="CWallAxisScript.cpp">
+      <Filter>ScriptCode\Wise</Filter>
+    </ClCompile>
+    <ClCompile Include="CWallScript.cpp">
+      <Filter>ScriptCode\Wise</Filter>
+    </ClCompile>
+    <ClCompile Include="CWiseScript.cpp">
+      <Filter>ScriptCode\Wise</Filter>
+    </ClCompile>
+    <ClCompile Include="CMissileScript2.cpp">
+      <Filter>ScriptCode\Wise</Filter>
+    </ClCompile>
+    <ClCompile Include="CMissileScript.cpp">
+      <Filter>ScriptCode\Wise</Filter>
+    </ClCompile>
+    <ClCompile Include="CMissileScript3.cpp">
+      <Filter>ScriptCode\Wise</Filter>
+    </ClCompile>
+    <ClCompile Include="CSecneChangeScript.cpp">
+      <Filter>ScriptCode</Filter>
+    </ClCompile>
+    <ClCompile Include="CStart2Script.cpp">
+      <Filter>ScriptCode</Filter>
+    </ClCompile>
+    <ClCompile Include="CStartScript.cpp">
+      <Filter>ScriptCode</Filter>
+    </ClCompile>
+    <ClCompile Include="CEffectScript.cpp">
+      <Filter>ScriptCode</Filter>
+    </ClCompile>
+    <ClCompile Include="CSetPlayerBosPos.cpp">
+      <Filter>ScriptCode</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Script.rc" />
+  </ItemGroup>
+</Project>

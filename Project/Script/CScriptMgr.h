@@ -1,0 +1,51 @@
+#pragma once
+
+#include <vector>
+#include <string>
+
+enum class SCRIPT_TYPE
+{
+	ANIMATORSCRIPT,
+	BULLETSCRIPT,
+	CAMERAANIMAITORSCRIPT,
+	CAMERASCRIPT,
+	COLLIDERCHECK,
+	EFFECTSCRIPT,
+	HPBARSCRIPT,
+	LAWSCRIPT,
+	MISSILESCRIPT,
+	MISSILESCRIPT2,
+	MISSILESCRIPT3,
+	MONSTERSCRIPT,
+	NAVMESHMANAGER,
+	PILLARSCRIPT,
+	PLAYERATTACKSCRIPT,
+	PLAYERSCRIPT,
+	RADIANDIRBULLETSCRIPT,
+	SCALEUPSCRIPT,
+	SECNECHANGESCRIPT,
+	SECTORCOLLIDERSCRIPT,
+	SETPLAYERBOSPOS,
+	SKYBOXSCRIPT,
+	SLASHSCRIPT,
+	START2SCRIPT,
+	STARTSCRIPT,
+	WALLAXISSCRIPT,
+	WALLSCRIPT,
+	WISESCRIPT,
+	YOYOSCRIPT,
+	END,
+};
+
+using namespace std;
+
+class CScript;
+
+class CScriptMgr
+{
+public:
+	static void GetScriptInfo(vector<wstring>& _vec);
+	static CScript * GetScript(const wstring& _strScriptName);
+	static CScript * GetScript(UINT _iScriptType);
+	static const wchar_t * GetScriptName(CScript * _pScript);
+};
